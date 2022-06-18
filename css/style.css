@@ -1,0 +1,123 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0px;
+  font-family: Open Sans;
+  color: rgb(25, 25, 121);
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.container {
+  width: 900px;
+  margin: auto;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+}
+
+.link-medium {
+  background-color: #1EDD88;
+  ;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 50px auto;
+  border-radius: 4px;
+}
+
+.link-medium:hover {
+  box-shadow: inset 300px 0 0 0  #04331e;
+  color: white;
+}
+
+.banner {
+  background-image: url(../images/background.png);
+  background-size: cover;
+  color: rgb(94, 28, 28);
+  padding: 120px 0;
+}
+
+.card img {
+  height: 100px;
+}
+
+.card p {
+  opacity: .5;
+}
+
+.card {
+  width: 200px;
+  border-radius: 1px;
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #4b4949;
+}
+
+.footer a {
+  font-size: 30px;
+  color:  #383b3a;
+}
+
+.footer p {
+  color: #3c6363;
+}
+
+.footer .fas {
+  color: #a30e11;
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
